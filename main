@@ -13,38 +13,10 @@ clear; sleep .1
   echo -e "$IMG3"; sleep 1; clear
   echo -e "$IMG4"; sleep 1; clear
   echo -e "$IMG2";
-  echo -e "\e[01;37;41m Esse é meu tio, Maiar \e[0m"
+  echo -e "\e[01;37;41m ola mundo\e[0m"
   sleep 1.5
-  echo -e "\e[01;37;41m Legal, eu vou ser sua tia!\e[0m"
+  echo -e "\e[01;37;41m PAI TA ON!\e[0m"
   sleep 3
   echo
-MenuX() {
-    clear
-    echo -e '\n'
-    echo -e " \e[01;31m==========================\e[0m"
-    echo -e " \e[05;33mCloudfare \e[0m\e[05;32m@EhisOpeNer\e[0m"
-    echo -e " \e[05;36mQual brinquedo para hoje\e[0m"
-    echo -e " \e[05;32m__________________________\e[0m"
-    echo -e " \e[01;36m[  1 ] | \e[0m\e[01;33mTestar Velocidade de sua Conexão\e[0m"
-    echo -e " \e[01;36m[  2 ] | \e[0m\e[01;33mTestar Proxys\e[0m"
-    echo -e " \e[01;36m[  3 ] | \e[0m\e[01;33mProcurar IPs Free Cloudfare\e[0m"
-    echo -e " \e[01;36m[  4 ] | \e[0m\e[01;33mVerificar Hosts com subdomínios Cloudfare\e[0m"
-    echo -e " \e[01;36m[  5 ] | \e[0m\e[01;33mX9 de Payload e Login\e[0m"
-    echo -e " \e[01;36m[  6 ] | \e[0m\e[01;33mGanhar MB ( ͡° ͜ʖ ͡°)\e[0m"
-    echo -e " \e[01;36m[  0 ] | \e[0m\e[01;31mSAIR, TENHO MEDO\e[0m"
-    echo -e '\n'
-    echo -e " \e[00;31m═══════════════════════════════\e[0m"
-    echo
-    App=$(echo -e "\e[05;36mRaj, escolhe uma carta\e[00m")
-    read -n1 -p "$App" App
-    case $App in
-    1) SpeedTest;;
-    2) Proxy;;
-    3) IPFree;;
-    4) Hosts;;
-    5) Menu4;;
-    6) Menu5;;
-    0) Sair;;
-    *) MenuX;;
     esac
     }
