@@ -13,10 +13,9 @@ clear; sleep .1
   echo -e "$IMG3"; sleep 1; clear
   echo -e "$IMG4"; sleep 1; clear
   echo -e "$IMG2";
-  echo -e "\e[01;37;41m ola mundo\e[0m"
+  echo -e "\e[01;37;41m ola mundo \e[0m"
   sleep 1.5
   echo -e "\e[01;37;41m PAI TA ON!\e[0m"
   sleep 3
   echo
-    esac
     }
