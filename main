@@ -7,7 +7,6 @@ echo -e "\e[01;37;41m F! ☹️ \e[0m"
   sleep 1.5
   echo -e "\e[01;37;41m ☹️☹️☹️☹️☹️☹️ \e[0m"
   sleep 3
-    clear
 echo -e '\n'
     echo -e " \e[01;31m==========================\e[0m"
     echo -e " \e[05;33mTESTE DE VELOCIDADE \e[0m\e[05;32m\e[0m"
