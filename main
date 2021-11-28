@@ -1,7 +1,10 @@
-echo -e "\e[01;37;41m Esse é meu tio, Maiar \e[0m"
+echo -e "\e[01;37;41m PALMEIRAS NAO TEM MUNDIAL \e[0m"
   sleep 1.5
-  echo -e "\e[01;37;41m Legal, eu vou ser sua tia!\e[0m"
+  echo -e "\e[01;37;41m PERDEMO \e[0m"
   sleep 3
   echo
-MenuX() {
+echo -e "\e[01;37;41m F! ☹️ \e[0m"
+  sleep 1.5
+  echo -e "\e[01;37;41m ☹️☹️☹️☹️☹️☹️ \e[0m"
+  sleep 3
     clear
