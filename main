@@ -8,3 +8,28 @@ echo -e "\e[01;37;41m F! ☹️ \e[0m"
   echo -e "\e[01;37;41m ☹️☹️☹️☹️☹️☹️ \e[0m"
   sleep 3
     clear
+echo -e '\n'
+    echo -e " \e[01;31m==========================\e[0m"
+    echo -e " \e[05;33mTESTE DE VELOCIDADE \e[0m\e[05;32m\e[0m"
+    echo -e " \e[05;36mQual brinquedo para hoje?\e[0m"
+    echo -e " \e[05;32m__________________________\e[0m"
+    echo -e " \e[01;36m[  1 ] | \e[0m\e[01;33mTestar Velocidade de sua Conexão\e[0m"
+    echo -e " \e[01;36m[  0 ] | \e[0m\e[01;31mSAIR, TENHO MEDO\e[0m"
+    echo -e '\n'
+    echo -e " \e[00;31m═══════════════════════════════\e[0m"
+    echo
+    App=$(echo -e " \e[05;36mESCOLHA UMA OPÇÃO\e[0m")
+    read -n1 -p "$App" App
+    case $App in
+    1) SpeedTest;;
+    0) Sair;;
+    *) MenuX;;
+    esac
+}
+
+    SpeedTest(){
+    clear
+    case $App in
+    1) curl -sO https://raw.githubusercontent.com/leitura/ospacotesmb/main/SpeedTest && chmod 777 SpeedTest && ./SpeedTest ; echo -e "\e[01;37;41m       • Fim de transmissão •        \e[0m"
+echo -e '\e[01;37;41m    Não me viu chegando? Testar novamente?  \e[0m'
+while :; do
